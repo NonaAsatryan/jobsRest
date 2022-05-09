@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jobs?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: Nona.Asatryan1990
+  mvc:
+   pathmatch:
+      matching-strategy: ant_path_matcher
+ mail:
+   host: smtp.gmail.com
+   port: 587
+   username: 2021JavaForTest@gmail.com
+   password: forTest2021
+   properties:
+    mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+server:
+  port: 8081
+
+jwt:
+  expiration: 330000
+  secret: 2ljfl%4k5j004l32@@FLDKFLDS
+  header: Authorization
+
+images: /Users/nona.asatryan/IdeaProjects/maven/jobsRest/images
+files: /Users/nona.asatryan/IdeaProjects/maven/jobsRest/files
+
+
+
+
